@@ -28,7 +28,7 @@ import java.util.List;
 @SlingServletPaths(
         value = {"/geeks/search"}
 )
-public class GeeksSearchServlet extends SlingAllMethodsServlet {
+public class SearchServlet extends SlingAllMethodsServlet {
     private static final Logger LOG = LoggerFactory.getLogger(GeeksSearchServlet.class);
 
     @Reference
