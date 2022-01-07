@@ -4,6 +4,6 @@ import com.day.cq.wcm.api.Page;
 
 import java.util.Iterator;
 
-public interface DemoService {
+public interface Demoservice {
     public Iterator<Page> getPages();
 }
