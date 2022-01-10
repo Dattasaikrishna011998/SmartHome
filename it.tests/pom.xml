@@ -6,7 +6,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.smarthome</groupId>
-        <artifactId>smarthome</artifactId>
+        <artifactId>SmartHome</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -14,7 +14,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>smarthome.it.tests</artifactId>
+    <artifactId>SmartHome.it.tests</artifactId>
     <name>SmartHome - Integration Tests Bundles</name>
     <description>Bundles for Integration Tests for SmartHome</description>
 
