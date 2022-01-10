@@ -6,7 +6,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.smarthome</groupId>
-        <artifactId>smarthome</artifactId>
+        <artifactId>SmartHome</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -14,7 +14,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>smarthome.ui.apps</artifactId>
+    <artifactId>SmartHome.ui.apps</artifactId>
     <packaging>content-package</packaging>
     <name>SmartHome - UI apps</name>
     <description>UI apps package for SmartHome</description>
@@ -34,7 +34,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <group>com.smarthome</group>
-                    <name>smarthome.ui.apps</name>
+                    <name>SmartHome.ui.apps</name>
                     <packageType>application</packageType>
                     <accessControlHandling>merge</accessControlHandling>
                     <properties>
@@ -43,7 +43,7 @@
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
                             <groupId>com.smarthome</groupId>
-                            <artifactId>smarthome.ui.apps.structure</artifactId>
+                            <artifactId>SmartHome.ui.apps.structure</artifactId>
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
                     <embeddeds>
@@ -54,7 +54,7 @@
                         </embedded>
                         <embedded>
                             <groupId>com.smarthome</groupId>
-                            <artifactId>smarthome.core</artifactId>
+                            <artifactId>SmartHome.core</artifactId>
                             <target>/apps/smarthome/install</target>
                         </embedded>
                     </embeddeds>
@@ -107,7 +107,7 @@
     <dependencies>
         <dependency>
             <groupId>com.smarthome</groupId>
-            <artifactId>smarthome.core</artifactId>
+            <artifactId>SmartHome.core</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
@@ -117,7 +117,7 @@
 
         <dependency>
             <groupId>com.smarthome</groupId>
-            <artifactId>smarthome.ui.apps.structure</artifactId>
+            <artifactId>SmartHome.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
