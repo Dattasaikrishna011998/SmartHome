@@ -9,7 +9,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.smarthome</groupId>
-        <artifactId>smarthome</artifactId>
+        <artifactId>SmartHome</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -17,7 +17,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>smarthome.all</artifactId>
+    <artifactId>SmartHome.all</artifactId>
     <packaging>content-package</packaging>
     <name>SmartHome - All</name>
     <description>All content package for SmartHome</description>
@@ -39,13 +39,13 @@
                     <embeddeds>
                         <embedded>
                             <groupId>com.smarthome</groupId>
-                            <artifactId>smarthome.ui.apps</artifactId>
+                            <artifactId>SmartHome.ui.apps</artifactId>
                             <type>zip</type>
                             <target>/apps/smarthome-packages/application/install</target>
                         </embedded>
                         <embedded>
                             <groupId>com.smarthome</groupId>
-                            <artifactId>smarthome.ui.content</artifactId>
+                            <artifactId>SmartHome.ui.content</artifactId>
                             <type>zip</type>
                             <target>/apps/smarthome-packages/content/install</target>
                         </embedded>
