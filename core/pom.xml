@@ -3,11 +3,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.smarthome</groupId>
-        <artifactId>smarthome</artifactId>
+        <artifactId>SmartHome</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>smarthome.core</artifactId>
+    <artifactId>SmartHome.core</artifactId>
     <name>SmartHome - Core</name>
     <description>Core bundle for SmartHome</description>
     <build>
