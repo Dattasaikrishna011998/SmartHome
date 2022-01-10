@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.smarthome</groupId>
-        <artifactId>smarthome</artifactId>
+        <artifactId>SmartHome</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -11,7 +11,7 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>smarthome.it.launcher</artifactId>
+    <artifactId>SmartHome.it.launcher</artifactId>
     <packaging>jar</packaging>
     <name>SmartHome - Integration Tests Launcher</name>
     <description>Integration Tests Launcher for SmartHome</description>
